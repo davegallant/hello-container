@@ -15,6 +15,6 @@ RUN pip install --no-cache-dir poetry==1.1.13 && \
 
 COPY . /app
 
-EXPOSE 5000
+EXPOSE 3000
 
 CMD [ "poetry", "run", "python3", "app.py" ]
